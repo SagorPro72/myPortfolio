@@ -1,13 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
-  background: rgb(197, 195, 195);
+  background: rgb(227 227 227);
 }
+
 h1 {
   font-size: 50px;
 }
 section {
   margin-bottom: 10px;
+}
+.nav_section{
+    background: #c5c5c5;
+}
+.top_section{
+    background-image: url("images/portfolio/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 .container {
   width: 1170px;
@@ -16,9 +31,9 @@ section {
 }
 .main_navSection {
   width: 100%;
-  background: #c5c5c5;
-  padding: 5px 0px;
-  border-bottom: 1px solid #ddd;
+
+  padding: 0px 0px;
+  /* border-bottom: 1px solid #ddd; */
 }
 .main_navSection .logo {
   color: #fff;
@@ -48,7 +63,7 @@ section {
 }
 .main_navSection .list ul li {
   display: inline-block;
-  padding: 5px 15px;
+  padding: 25px 15px;
 }
 
 .main_navSection .list ul li a {
@@ -71,5 +86,25 @@ section {
   padding-left: 2%;
 }
 .half-width img {
-  width: 100%;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.half-width p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.hire_btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.hire_btn:hover{
+  background-image: linear-gradient(45deg, tomato,lightSalmon );
 }
