@@ -1,19 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(197, 195, 195);
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.heiglight-name{
-    color: orange;
+section {
+  margin-bottom: 10px;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+.container {
+  width: 1170px;
+  overflow: hidden;
+  margin: auto;
 }
-.half-width img{
-    width: 100%;
+.main_navSection {
+  width: 100%;
+  background: #c5c5c5;
+  padding: 5px 0px;
+  border-bottom: 1px solid #ddd;
+}
+.main_navSection .logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  float: left;
+  width: 30%;
+  margin-left: 100px;
+  padding: 10px 0;
+  margin-right: 200px;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.main_navSection .logo:hover {
+  color: orange;
+}
+.main_navSection .logo:hover span {
+  color: #fff;
+  transition: 0.8s;
+}
+.main_navSection .logo span {
+  color: orange;
+}
+.main_navSection .list ul {
+  list-style: none;
+}
+.main_navSection .list ul li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.main_navSection .list ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.5s;
+}
+.main_navSection .list ul li:hover a {
+  color: #ff5200;
+}
+.heiglight-name {
+  color: orange;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
 }
